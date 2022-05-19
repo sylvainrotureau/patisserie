@@ -1,0 +1,199 @@
+/*
+Author : Sylvain Rotureau
+Date : 15/05/2022
+Version : 1
+*/
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Indie+Flower&display=swap");
+body {
+  font-family: 'Alegreya', serif;
+  width: 100vw;
+  margin: 0;
+}
+
+body header {
+  z-index: 10;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10vh;
+  background-color: white;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 0% 10%;
+  gap: 4%;
+}
+
+body header #left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5%;
+  width: 50%;
+}
+
+body header #left #logo {
+  font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #612118;
+}
+
+body header #left #sociallogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20%;
+}
+
+body header #left #sociallogo i {
+  font-size: 1.8em;
+  color: #e4b071;
+}
+
+body header nav {
+  max-width: auto;
+}
+
+body header nav ul {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 4%;
+}
+
+body header nav ul li {
+  padding: 4%;
+  list-style: none;
+  cursor: pointer;
+}
+
+body header nav ul li a {
+  text-decoration: none;
+  color: #7c4c54;
+  font-weight: 600;
+}
+
+body header nav ul li a:hover {
+  color: #612118;
+  border-bottom: 1px solid #e4b071;
+}
+
+body #top {
+  background-color: #e7b5bb;
+  height: auto;
+  text-align: center;
+  margin: 0 5%;
+  padding: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60vh;
+  border: 1px solid #e4b071;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body #top #leftside {
+  padding-top: 10%;
+  width: 40%;
+}
+
+body #top #leftside #title {
+  font-size: 3em;
+  font-weight: 400;
+}
+
+body #top #leftside p {
+  font-size: 1.5em;
+}
+
+body #top #rightside {
+  width: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./images/IMG_2005.JPG);
+}
+
+body #work {
+  margin: 0 5%;
+  height: 60vh;
+  background-color: #612118;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #work .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1%;
+  width: 100%;
+}
+
+body #work .row #photoleft {
+  width: 30%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./images/IMG_3858.jpg);
+}
+
+body #work .row #photomiddles {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 3%;
+}
+
+body #work .row #photomiddles #photomiddle1 {
+  height: 49%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./images/IMG_2785.JPG);
+}
+
+body #work .row #photomiddles #photomiddle2 {
+  height: 49%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./images/IMG_3809.JPG);
+}
+
+body #work .row #photoright {
+  width: 30%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./images/IMG_4445.JPG);
+}
+/*# sourceMappingURL=style.css.map */
